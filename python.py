@@ -30,5 +30,13 @@ print(rev_string("racecar"))
 
 
 # Write a Python function called num_within() to check whether a number falls in a given range.
+
+def num_within(x,a,b):
+  return x in range(a,b+1)
+     
+# returns a boolean
+print(num_within(12,5,18))     
+print(num_within(11,1,10))     
+
 # Write a Python function called pascal() that prints out the first n rows of Pascal's triangle.
 #
