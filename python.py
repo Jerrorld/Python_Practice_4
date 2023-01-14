@@ -40,3 +40,17 @@ print(num_within(11,1,10))
 
 # Write a Python function called pascal() that prints out the first n rows of Pascal's triangle.
 #
+
+# this is a pascal triangle using the power of 11
+# note that it will only appropriately work up to 5 lines
+def pascal(n): 
+    # iterarte n
+    for i in range(n):
+        # adjust for space
+        print(' '*(n-i), end='')
+    
+        # compute power of 11
+        print(' '.join(map(str, str(11**i))))
+
+pascal(5)
+pascal(3)
