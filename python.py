@@ -19,7 +19,16 @@ def mult_list(lst):
 print(mult_list([]))
 print(mult_list([3,5,2]))
 
+
 # Write a Python function called rev_string() to reverse a string.
+def rev_string(str):
+    return str[::-1]
+
+print(rev_string("tedious"))
+print(rev_string("racecar"))
+
+
+
 # Write a Python function called num_within() to check whether a number falls in a given range.
 # Write a Python function called pascal() that prints out the first n rows of Pascal's triangle.
 #
